@@ -9,128 +9,245 @@
 </head>
 <body>
 
+
+    <!-- Progress bar -->
+    <div id="progress-bar"></div>
+
     <header>
         <nav>
             <a href="#hero" class="logo">Sairaj Jadhav</a>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
 
     <main>
         <section id="hero">
             <div class="hero-content">
+                <div class="profile-image-container">
+                    <img src="images/Profile.jpeg" alt="Profile of Sairaj Jadhav" class="profile-image">
+                </div>
                 <h1>Sairaj Jadhav</h1>
                 <h2>AI & Data Science Student</h2>
                 <p>Solving Real-World Problems with Code, Circuits & Curiosity.</p>
                 <div class="social-links">
-                    <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/SairajJadhav08" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="mailto:sairajj933@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/SairajJadhav08" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:sairajj933@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
                 </div>
+                <a href="#about" class="btn-primary">Learn More</a>
             </div>
         </section>
 
-        <section id="about" class="container">
-            <h2>About Me</h2>
+        <section id="about" class="container section">
+            <h2 class="section-title">About Me</h2>
             <div class="about-content">
-                [cite_start]<p>Hi, I'm Sairaj Jadhav - a third-year AI & Data Science engineering student driven by building tech that solves real-world problems[cite: 14]. [cite_start]I develop smart systems using embedded tech & web tools, combining hardware, software, and creativity[cite: 16, 17]. [cite_start]I'm also learning full-stack development through IBM's program[cite: 18].</p>
+                <div class="about-text">
+                    <p>Hi, I'm Sairaj Jadhav - a third-year AI & Data Science engineering student driven by building tech that solves real-world problems. I develop smart systems using embedded tech & web tools, combining hardware, software, and creativity. I'm also learning full-stack development through IBM's program.</p>
+                    <a href="#" class="resume-btn" target="_blank">
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
                 <div class="skills-section">
-                    <h3>Skills Snapshot</h3>
-                    <div class="skills-list">
-                        <div class="skill-category">
-                            <h4>Languages</h4>
-                            <ul>
-                                <li>Python</li>
-                                <li>C/C++</li>
-                                <li>HTML, CSS, JS</li>
-                            </ul>
+                    <h3>Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
                         </div>
-                        <div class="skill-category">
-                            <h4>Tech & Tools</h4>
-                            <ul>
-                                <li>ESP32</li>
-                                <li>Firebase</li>
-                                <li>Git</li>
-                                <li>React (basic)</li>
-                                <li>Node.js (basic)</li>
-                            </ul>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C/C++</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
                         </div>
-                        <div class="skill-category">
-                            <h4>Focus Areas</h4>
-                            <ul>
-                                <li>Embedded Systems</li>
-                                <li>Web Dev</li>
-                                <li>UI/UX</li>
-                                <li>Prototyping</li>
-                            </ul>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML, CSS, JS</span>
+                                <span class="skill-level">Advanced</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">React</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Agile Development</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git And GitHub</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="projects" class="container">
-            <h2>Projects</h2>
+        <section id="projects" class="container section">
+            <h2 class="section-title">Projects</h2>
             <div class="project-grid">
-
                 <div class="project-card">
-                    <img src="images/smart-regional-alert.png" alt="Smart Regional Alert System" class="project-image">
-                    <h3>Smart Regional Alert & Navigation System</h3>
-                    [cite_start]<p>Built a smart alert and navigation system to assist people during regional disruptions like power cuts, disease outbreaks, construction work, and disasters[cite: 29].</p>
-                    <div class="tech-stack">
-                        <span>Real Time Alerts</span>
-                        <span>Navigation</span>
-                        <span>Early Alerts</span>
-                        <span>Embedded Systems</span>
+                    <div class="project-image-container">
+                        <img src="images/smart-regional-alert.png" alt="Smart Regional Alert System" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/SairajJadhav08" class="github-link" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                    <div class="project-content">
+                        <h3>Smart Regional Alert & Navigation System</h3>
+                        <p>Built a smart alert and navigation system to assist people during regional disruptions like power cuts, disease outbreaks, construction work, and disasters.</p>
+                        <div class="tech-stack">
+                            <span>Real Time Alerts</span>
+                            <span>Navigation</span>
+                            <span>Early Alerts</span>
+                            <span>Embedded Systems</span>
+                        </div>
+                    </div>
                 </div>
                 
                 <div class="project-card">
-                    <img src="images/real-time-card-detector.png" alt="Real-Time Card Detector" class="project-image">
-                    <h3>Real-Time Card Detector</h3>
-                    <p>An AI-powered application that uses computer vision to identify and classify playing cards in a live video feed, demonstrating skills in real-time image processing.</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>OpenCV</span>
-                        <span>TensorFlow</span>
+                    <div class="project-image-container">
+                        <img src="images/real-time-card-detector.png" alt="Real-Time Card Detector" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/SairajJadhav08" class="github-link" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                    <div class="project-content">
+                        <h3>Real-Time Card Detector</h3>
+                        <p>An AI-powered application that uses computer vision to identify and classify playing cards in a live video feed, demonstrating skills in real-time image processing.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>TensorFlow</span>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="images/ai-meme-generator.png" alt="AI Meme Generator" class="project-image">
-                    <h3>AI Meme Generator</h3>
-                    <p>A tool that uses artificial intelligence to generate humorous memes from user-provided text, blending creativity with technical skills in NLP.</p>
-                    <div class="tech-stack">
-                        <span>Python</span>
-                        <span>NLP</span>
-                        <span>Pillow</span>
+                    <div class="project-image-container">
+                        <img src="images/ai-meme-generator.png" alt="AI Meme Generator" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://github.com/SairajJadhav08" class="github-link" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                    <div class="project-content">
+                        <h3>AI Meme Generator</h3>
+                        <p>A tool that uses artificial intelligence to generate humorous memes from user-provided text, blending creativity with technical skills in NLP.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Pillow</span>
+                        </div>
+                    </div>
                 </div>
-
+                 <div class="project-card">
+                    <div class="project-image-container">
+                        <img src="images/MedVault.png" alt="MedVault" class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>MedVault</h3>
+                        <p>MedVault is a Flask-based health app that manages prescriptions, reminders, nutrition tips, and yoga guidance with a simple, user-friendly interface.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>HTML</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="contact" class="container">
-            <h2>Get in Touch</h2>
-            <p>I'm always open to new opportunities and collaborations. Feel free to connect with me!</p>
-            <div class="contact-links">
-                <a href="mailto:sairajj933@gmail.com" class="contact-btn">Email Me</a>
-                <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank" class="contact-btn">LinkedIn</a>
-                <a href="https://github.com/SairajJadhav08" target="_blank" class="contact-btn">GitHub</a>
+        <section id="contact" class="container section">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-description">I'm always open to new opportunities and collaborations. Feel free to connect with me!</p>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:sairajj933@gmail.com">sairajj933@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank">LinkedIn Profile</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/SairajJadhav08" target="_blank">GitHub Profile</a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2025 Sairaj Jadhav. All Rights Reserved.</p>
+        <div class="footer-content">
+            <div class="footer-logo">Sairaj Jadhav</div>
+            <p class="footer-text">Solving Real-World Problems with Code, Circuits & Curiosity.</p>
+            <div class="footer-social-links">
+                <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SairajJadhav08" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:sairajj933@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sairaj Jadhav. All Rights Reserved.</p>
+        </div>
     </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
