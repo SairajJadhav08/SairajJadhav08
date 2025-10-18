@@ -3,96 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sairaj Jadhav - Portfolio</title>
+    <title>Sairaj Jadhav - AI & Data Science Engineer</title>
+    <meta name="description" content="Portfolio of Sairaj Jadhav - AI & Data Science Engineering Student specializing in full-stack development, embedded systems, and innovative tech solutions.">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-
+    <!-- Particle Background -->
+    <div id="particles-js"></div>
 
     <!-- Progress bar -->
     <div id="progress-bar"></div>
 
+    <!-- Navigation -->
     <header>
-        <nav>
-            <a href="#hero" class="logo">Sairaj Jadhav</a>
+        <nav class="navbar">
+            <a href="#hero" class="logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">SJ</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
             <div class="nav-links">
                 <ul>
                     <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section id="hero">
-            <div class="hero-content">
-                <div class="profile-image-container">
-                    <img src="images/Profile.jpeg" alt="Profile of Sairaj Jadhav" class="profile-image">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="greeting" data-aos="fade-down">Hello, I'm</p>
+                        <h1 class="hero-title" data-aos="fade-up">
+                            <span class="gradient-text">Sairaj Jadhav</span>
+                        </h1>
+                        <div class="typing-container" data-aos="fade-up" data-aos-delay="200">
+                            <span class="typing-text">I'm a </span>
+                            <span class="typed-text"></span>
+                            <span class="cursor">&nbsp;</span>
+                        </div>
+                        <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                            Third-year engineering student passionate about solving real-world problems through code, circuits, and creativity. Building intuitive devices, alert-based systems, and interactive simulations.
+                        </p>
+                        <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                            <a href="#contact" class="btn btn-primary">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="Resume new.pdf" download="Sairaj_Jadhav_Resume.pdf" class="btn btn-secondary">
+                                <i class="fas fa-download"></i>
+                                <span>Download CV</span>
+                            </a>
+                        </div>
+                        <div class="social-links" data-aos="fade-up" data-aos-delay="800">
+                            <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/SairajJadhav08" target="_blank" class="social-link" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="mailto:sairajjadhav433@gmail.com" class="social-link" aria-label="Email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:+919356860010" class="social-link" aria-label="Phone">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image" data-aos="fade-left" data-aos-delay="400">
+                        <div class="image-wrapper">
+                            <div class="glow-effect"></div>
+                            <img src="images/Profile.jpeg" alt="Sairaj Jadhav">
+                            <div class="floating-element element-1">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="floating-element element-2">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="floating-element element-3">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <h1>Sairaj Jadhav</h1>
-                <h2>AI & Data Science Student</h2>
-                <p>Solving Real-World Problems with Code, Circuits & Curiosity.</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/SairajJadhav08" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
-                    <a href="mailto:sairajj933@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <p>Scroll Down</p>
                 </div>
-                <a href="#about" class="btn-primary">Learn More</a>
             </div>
         </section>
 
-        <section id="about" class="container section">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Hi, I'm Sairaj Jadhav - a third-year AI & Data Science engineering student driven by building tech that solves real-world problems. I develop smart systems using embedded tech & web tools, combining hardware, software, and creativity. I'm also learning full-stack development through IBM's program.</p>
-                    <a href="#" class="resume-btn" target="_blank">
-                        <i class="fas fa-download"></i> Download Resume
-                    </a>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-number">01.</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-line"></div>
                 </div>
-                <div class="skills-section">
-                    <h3>Skills</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Python</span>
-                                <span class="skill-level">Advanced</span>
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-right">
+                        <p class="lead-text">
+                            Hi! I'm <span class="highlight">Sairaj Jadhav</span>, a third-year AI & Data Science engineering student at <span class="highlight">Dr. D.Y. Patil College of Engineering, Pune</span>.
+                        </p>
+                        <p>
+                            I'm passionate about building technology that solves real-world problems. My expertise spans across <strong>full-stack web development</strong>, <strong>embedded systems</strong>, and <strong>AI/ML applications</strong>. I develop smart systems using embedded tech & web tools, combining hardware, software, and creativity.
+                        </p>
+                        <p>
+                            Currently, I'm learning full-stack development through <strong>IBM's certification program</strong> and have hands-on experience in building hardware-software solutions, alert systems, and IoT-based projects.
+                        </p>
+                        <p>
+                            When I'm not coding, you'll find me exploring new technologies, participating in hackathons, or working on innovative projects that make a difference.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-target="10">0</h3>
+                                <p class="stat-label">Projects Completed</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-target="3">0</h3>
+                                <p class="stat-label">Hackathon Wins</p>
+                            </div>
+                            <div class="stat-item">
+                                <h3 class="stat-number" data-target="8.60">8.60</h3>
+                                <p class="stat-label">CGPA</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">C/C++</span>
-                                <span class="skill-level">Intermediate</span>
+                    </div>
+                    <div class="about-image" data-aos="fade-left">
+                        <div class="image-border">
+                            <img src="images/Profile.jpeg" alt="Sairaj Jadhav">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section section-dark">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-number">02.</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="education-timeline">
+                    <div class="timeline-item" data-aos="fade-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-info">
+                                <span class="timeline-date">2023 - 2027</span>
+                                <h3>BTech in AI & Data Science</h3>
+                                <h4>Dr. D.Y. Patil College of Engineering, Pune</h4>
+                                <p class="timeline-grade">CGPA: 9.03, 7.78</p>
+                                <p class="timeline-desc">Specializing in Artificial Intelligence, Machine Learning, Data Science, and Full-Stack Development.</p>
                             </div>
                         </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">HTML, CSS, JS</span>
-                                <span class="skill-level">Advanced</span>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-icon">
+                                <i class="fas fa-school"></i>
                             </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">React</span>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Agile Development</span>
-                                <span class="skill-level">Intermediate</span>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-info">
-                                <span class="skill-name">Git And GitHub</span>
-                                <span class="skill-level">Intermediate</span>
+                            <div class="timeline-info">
+                                <span class="timeline-date">2022</span>
+                                <h3>Higher Secondary Education (HSC)</h3>
+                                <h4>Abasaheb Garware College of Arts and Science, Pune</h4>
+                                <p class="timeline-grade">Percentage: 70.33%</p>
+                                <p class="timeline-desc">Science stream with focus on Mathematics and Computer Science.</p>
                             </div>
                         </div>
                     </div>
@@ -100,147 +201,406 @@
             </div>
         </section>
 
-        <section id="projects" class="container section">
-            <h2 class="section-title">Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <div class="project-image-container">
-                        <img src="images/smart-regional-alert.png" alt="Smart Regional Alert System" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-number">03.</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category" data-aos="fade-up">
+                        <h3 class="category-title">
+                            <i class="fas fa-code"></i>
+                            Programming Languages
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-chip">Python</div>
+                            <div class="skill-chip">JavaScript</div>
+                            <div class="skill-chip">HTML</div>
+                            <div class="skill-chip">CSS</div>
+                            <div class="skill-chip">C/C++</div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="category-title">
+                            <i class="fas fa-layer-group"></i>
+                            Frameworks & Libraries
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-chip">React</div>
+                            <div class="skill-chip">Node.js</div>
+                            <div class="skill-chip">Express.js</div>
+                            <div class="skill-chip">Flask</div>
+                            <div class="skill-chip">TensorFlow</div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="category-title">
+                            <i class="fas fa-tools"></i>
+                            Tools & Platforms
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-chip">GitHub</div>
+                            <div class="skill-chip">Firebase</div>
+                            <div class="skill-chip">Git</div>
+                            <div class="skill-chip">VS Code</div>
+                            <div class="skill-chip">Figma</div>
+                        </div>
+                    </div>
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="category-title">
+                            <i class="fas fa-brain"></i>
+                            AI/ML & Other
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-chip">Machine Learning</div>
+                            <div class="skill-chip">Deep Learning</div>
+                            <div class="skill-chip">OpenCV</div>
+                            <div class="skill-chip">Embedded Systems</div>
+                            <div class="skill-chip">UI/UX Design</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section section-dark">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-number">04.</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-aos="fade-up">
+                        <div class="project-image">
+                            <img src="images/smart-regional-alert.png" alt="Smart Regional Alert System">
+                            <div class="project-overlay">
                                 <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Smart Regional Alert & Navigation System</h3>
-                        <p>Built a smart alert and navigation system to assist people during regional disruptions like power cuts, disease outbreaks, construction work, and disasters.</p>
-                        <div class="tech-stack">
-                            <span>Real Time Alerts</span>
-                            <span>Navigation</span>
-                            <span>Early Alerts</span>
-                            <span>Embedded Systems</span>
+                        <div class="project-content">
+                            <span class="project-category">Full-Stack Development</span>
+                            <h3>Smart Regional Alert & Navigation System</h3>
+                            <p class="project-role">Lead Developer | Jan 2025 – Feb 2025</p>
+                            <p class="project-description">
+                                Developed a web-based platform that provides real-time regional alerts and navigation assistance for events like power cuts, disease outbreaks, construction work, and disasters. Enables users to receive timely alerts and plan alternate routes.
+                            </p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>Firebase</span>
+                            </div>
                         </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="images/real-time-card-detector.png" alt="Real-Time Card Detector">
+                            <div class="project-overlay">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Computer Vision</span>
+                            <h3>Real-Time Card Detector</h3>
+                            <p class="project-role">Developer | July 2025 – Aug 2025</p>
+                            <p class="project-description">
+                                Created a real-time playing card detection system using computer vision to identify and classify cards from a live camera feed. Trained and integrated object detection models for accurate recognition.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>OpenCV</span>
+                                <span>Deep Learning</span>
+                                <span>Object Detection</span>
+                                <span>Pygame</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="images/MedVault.png" alt="MedVault">
+                            <div class="project-overlay">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Healthcare Tech</span>
+                            <h3>MedVault</h3>
+                            <p class="project-role">Developer</p>
+                            <p class="project-description">
+                                A Flask-based health app that manages prescriptions, medication reminders, nutrition tips, and yoga guidance with a simple, user-friendly interface for better healthcare management.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>HTML/CSS</span>
+                                <span>API Integration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <img src="images/ai-meme-generator.png" alt="AI Meme Generator">
+                            <div class="project-overlay">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">AI/ML</span>
+                            <h3>AI Meme Generator</h3>
+                            <p class="project-role">Developer</p>
+                            <p class="project-description">
+                                A creative tool that uses artificial intelligence to generate humorous memes from user-provided text, blending creativity with technical skills in NLP and image processing.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>NLP</span>
+                                <span>Pillow</span>
+                                <span>API</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-image">
+                            <img src="images\ViroAI.png" alt="Viro-AI">
+                            <div class="project-overlay">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <span class="project-category">Machine Learning</span>
+                            <h3>Viro-AI: Viral Insight Rapid Optimization Analytics & Intelligence</h3>
+                            <p class="project-role">Lead Developer </p>
+                            <p class="project-description">
+                                Viro-AI is a comprehensive machine learning platform that combines genomic analysis, drug-virus binding prediction, and clinical outcome forecasting to accelerate antiviral drug discovery and pandemic preparedness.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Machine Learning</span>
+                                <span>Deep Learning</span>
+                                <span>Data Science</span>
+                                <span>AI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--project 6-->
+                    <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                        <div class="project-image">
+                            <img src="images\Wifi Password.png" alt="WifiPassword">
+                            <div class="project-overlay">
+                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content"> 
+                            <span class="project-category">Desktop Application</span>
+                            <h3>Wi-Fi Password Retriever GUI</h3>
+                            <p class="project-role">Lead Developer </p>
+                            <p class="project-description">
+                                Wi-Fi Password Retriever GUI A simple and intuitive desktop tool for Windows that retrieves saved Wi-Fi passwords and displays them in a clean, modern web-based graphical user interface.
+                            </p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>GUI</span>
+                                <span>Web</span>
+                                <span>API</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-number">05.</span>
+                    <h2 class="section-title">Achievements & Recognition</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card" data-aos="zoom-in">
+                        <div class="achievement-badge">
+                            <i class="fas fa-trophy"></i>
+                            <span class="badge-rank">1st</span>
+                        </div>
+                        <h3>Ideathon Winner</h3>
+                        <p class="achievement-org">Dr. D.Y. Patil College of Engineering</p>
+                        <p class="achievement-desc">Led team that pitched the project idea which was also selected for Smart India Hackathon 2025.</p>
+                    </div>
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="achievement-badge">
+                            <i class="fas fa-medal"></i>
+                            <span class="badge-rank">2nd</span>
+                        </div>
+                        <h3>National Level Sci-Tech Hackathon 2025</h3>
+                        <p class="achievement-org">AISSMS College of Engineering, Pune</p>
+                        <p class="achievement-desc">Secured second place for Voc-AI, earning a ₹5000 cash prize and project development support.</p>
+                    </div>
+                    <div class="achievement-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="achievement-badge">
+                            <i class="fas fa-award"></i>
+                            <span class="badge-rank">3rd</span>
+                        </div>
+                        <h3>Hackathought Competition</h3>
+                        <p class="achievement-org">Dr. D.Y. Patil College of Engineering</p>
+                        <p class="achievement-desc">Recognized for innovative problem-solving and exceptional teamwork.</p>
                     </div>
                 </div>
                 
-                <div class="project-card">
-                    <div class="project-image-container">
-                        <img src="images/real-time-card-detector.png" alt="Real-Time Card Detector" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                </a>
+                <!-- Certifications -->
+                <div class="certifications-section" data-aos="fade-up">
+                    <h3 class="certifications-title">Professional Certifications</h3>
+                    <div class="certifications-grid">
+                        <div class="cert-card">
+                            <div class="cert-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="cert-info">
+                                <h4>Developing Back-End Apps with Node.js and Express</h4>
+                                <p class="cert-issuer">IBM</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Real-Time Card Detector</h3>
-                        <p>An AI-powered application that uses computer vision to identify and classify playing cards in a live video feed, demonstrating skills in real-time image processing.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>OpenCV</span>
-                            <span>TensorFlow</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-image-container">
-                        <img src="images/ai-meme-generator.png" alt="AI Meme Generator" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                </a>
+                        <div class="cert-card">
+                            <div class="cert-icon">
+                                <i class="fas fa-certificate"></i>
                             </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>AI Meme Generator</h3>
-                        <p>A tool that uses artificial intelligence to generate humorous memes from user-provided text, blending creativity with technical skills in NLP.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>NLP</span>
-                            <span>Pillow</span>
-                        </div>
-                    </div>
-                </div>
-                 <div class="project-card">
-                    <div class="project-image-container">
-                        <img src="images/MedVault.png" alt="MedVault" class="project-image">
-                        <div class="project-overlay">
-                            <div class="project-links">
-                                <a href="https://github.com/SairajJadhav08" target="_blank" class="project-link">
-                                    <i class="fab fa-github"></i>
-                                </a>
+                            <div class="cert-info">
+                                <h4>Developing Front-End Apps with React</h4>
+                                <p class="cert-issuer">IBM</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>MedVault</h3>
-                        <p>MedVault is a Flask-based health app that manages prescriptions, reminders, nutrition tips, and yoga guidance with a simple, user-friendly interface.</p>
-                        <div class="tech-stack">
-                            <span>Python</span>
-                            <span>HTML</span>
-                            <span>API Integration</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="container section">
-            <h2 class="section-title">Get in Touch</h2>
-            <p class="contact-description">I'm always open to new opportunities and collaborations. Feel free to connect with me!</p>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <a href="mailto:sairajj933@gmail.com">sairajj933@gmail.com</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank">LinkedIn Profile</a>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <a href="https://github.com/SairajJadhav08" target="_blank">GitHub Profile</a>
-                    </div>
+        <!-- Contact Section -->
+        <section id="contact" class="section section-dark">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <span class="section-number">06.</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-line"></div>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <input type="text" placeholder="Your Name" required>
+                <div class="contact-content">
+                    <div class="contact-text" data-aos="fade-right">
+                        <h3>Let's Work Together</h3>
+                        <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                        <div class="contact-info-cards">
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h4>Email</h4>
+                                    <a href="mailto:sairajjadhav433@gmail.com">sairajjadhav433@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+919356860010">+91-9356860010</a>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="info-details">
+                                    <h4>Location</h4>
+                                    <p>Pune, Maharashtra, India</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <input type="email" placeholder="Your Email" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea placeholder="Your Message" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn-primary">Send Message</button>
-                    </form>
+                    </div>
+                    <div class="contact-form-wrapper" data-aos="fade-left">
+                        <form id="contactForm" class="contact-form" action="https://formspree.io/f/mrbyjvyj" method="POST">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="_replyto" placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="_subject" placeholder="How can I help you?" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+                            <input type="hidden" name="_next" value="https://sairajjadhav08.github.io/SairajJadhav08/">
+                            <input type="text" name="_gotcha" style="display:none">
+                            <button type="submit" class="btn btn-primary">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
-            <div class="footer-logo">Sairaj Jadhav</div>
-            <p class="footer-text">Solving Real-World Problems with Code, Circuits & Curiosity.</p>
-            <div class="footer-social-links">
-                <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/SairajJadhav08" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="mailto:sairajj933@gmail.com"><i class="fas fa-envelope"></i></a>
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-text">Sairaj Jadhav</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </div>
+                <p class="footer-tagline">Building the future, one line of code at a time.</p>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/sairaj-jadhav-8521b3226" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/SairajJadhav08" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:sairajjadhav433@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+919356860010" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Sairaj Jadhav. All Rights Reserved.</p>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sairaj Jadhav. Designed & Built with <i class="fas fa-heart"></i> by Sairaj Jadhav</p>
+            </div>
         </div>
     </footer>
 
@@ -249,6 +609,8 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
