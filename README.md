@@ -16,12 +16,39 @@
 <br/>
 
 <div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
+</div>
+
+<br/>
+
+## 🧐 More About Me
+
+- 🔭 I’m currently working on **Advanced AI & IoT Projects**
+- 👯 I’m looking to collaborate on **Open Source Projects & Hackathons**
+- 🤝 I’m looking for help with **Deep Learning Architectures**
+- 💬 Ask me about **Python, React, Embedded Systems (ESP32/Arduino)**
+- ⚡ Fun fact: **I love building robots and automating boring tasks!**
+
+<br/>
+
+<div align="center">
   
   ## 🛠️ Tech Stack
   
   <img src="https://skillicons.dev/icons?i=python,js,java,c,cpp,react,fastapi,flask,git,github,raspberrypi,arduino,html,css,vscode&perline=8" />
   
 </div>
+
+<br/>
+
+## 🎓 Education & Journey
+
+**Engineering Student**  
+*Focusing on Computer Science, AI, and Embedded Systems.*
+
+- **Current Focus:** Mastering Full Stack Development & Machine Learning.
+- **Goal:** To build scalable solutions that impact society positively.
+- **Interests:** Hackathons, Tech Communities, and Open Source.
 
 <br/>
 
