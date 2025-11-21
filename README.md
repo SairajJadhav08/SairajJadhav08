@@ -16,7 +16,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SairajJadhav08&theme=tokyonight" />
 </div>
 
 <br/>
@@ -92,7 +92,7 @@
   <br/>
   <br/>
   
-  ![Visitor Count](https://profile-counter.glitch.me/SairajJadhav08/count.svg)
+  <img src="https://komarev.com/ghpvc/?username=SairajJadhav08&label=Profile%20Views&color=0e75b6&style=flat" alt="Visitor Count" />
 
   <br/>
   
