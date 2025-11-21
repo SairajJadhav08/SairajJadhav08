@@ -16,7 +16,11 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SairajJadhav08&theme=tokyonight" />
+  <!-- Random Joke Card -->
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight" width="500" alt="Random Joke" />
+  <br/>
+  <!-- Random Quote Card -->
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="500" alt="Random Quote" />
 </div>
 
 <br/>
