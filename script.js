@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
     initParticles();
     initFormHandler();
     initSmoothScroll();
+    initCustomCursor();
+    initMagneticEffect();
 });
 
 // ==========================================
@@ -584,6 +586,176 @@ function debounce(func, wait = 10) {
 window.addEventListener('scroll', debounce(() => {
     // Any additional scroll-based animations can go here
 }, 10));
+
+// ==========================================
+// CUSTOM CURSOR EFFECTS
+// ==========================================
+function initCustomCursor() {
+    // Only on desktop
+    if (window.innerWidth <= 768) return;
+    
+    const cursor = document.createElement('div');
+    cursor.className = 'cursor';
+    document.body.appendChild(cursor);
+    
+    const cursorDot = document.createElement('div');
+    cursorDot.className = 'cursor-dot';
+    document.body.appendChild(cursorDot);
+    
+    const cursorGlow = document.createElement('div');
+    cursorGlow.className = 'cursor-glow';
+    document.body.appendChild(cursorGlow);
+    
+    let mouseX = 0;
+    let mouseY = 0;
+    let cursorX = 0;
+    let cursorY = 0;
+    let dotX = 0;
+    let dotY = 0;
+    let glowX = 0;
+    let glowY = 0;
+    
+    // Track mouse position
+    document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+    });
+    
+    // Animate cursor with smooth following
+    function animateCursor() {
+        // Main cursor (slower, more lag)
+        cursorX += (mouseX - cursorX) * 0.1;
+        cursorY += (mouseY - cursorY) * 0.1;
+        cursor.style.left = cursorX + 'px';
+        cursor.style.top = cursorY + 'px';
+        
+        // Dot cursor (faster, less lag)
+        dotX += (mouseX - dotX) * 0.3;
+        dotY += (mouseY - dotY) * 0.3;
+        cursorDot.style.left = dotX + 'px';
+        cursorDot.style.top = dotY + 'px';
+        
+        // Glow effect (slowest)
+        glowX += (mouseX - glowX) * 0.05;
+        glowY += (mouseY - glowY) * 0.05;
+        cursorGlow.style.left = glowX + 'px';
+        cursorGlow.style.top = glowY + 'px';
+        
+        requestAnimationFrame(animateCursor);
+    }
+    
+    animateCursor();
+    
+    // Hover effects on interactive elements
+    const interactiveElements = document.querySelectorAll(
+        'a, button, .btn, .project-card, .skill-chip, .achievement-card, .social-link, .nav-links a, .project-link, .info-card, .cert-card, .timeline-content'
+    );
+    
+    interactiveElements.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            cursor.classList.add('hover');
+            cursorDot.classList.add('hover');
+            cursorGlow.classList.add('hover');
+        });
+        
+        el.addEventListener('mouseleave', () => {
+            cursor.classList.remove('hover');
+            cursorDot.classList.remove('hover');
+            cursorGlow.classList.remove('hover');
+        });
+    });
+    
+    // Text hover effect
+    const textElements = document.querySelectorAll('p, h1, h2, h3, h4, h5, h6, span, li');
+    textElements.forEach(el => {
+        el.addEventListener('mouseenter', () => {
+            if (el.tagName === 'P' || el.tagName === 'H1' || el.tagName === 'H2' || el.tagName === 'H3') {
+                cursor.classList.add('text');
+            }
+        });
+        
+        el.addEventListener('mouseleave', () => {
+            cursor.classList.remove('text');
+        });
+    });
+    
+    // Click effect with ripple
+    document.addEventListener('mousedown', (e) => {
+        cursor.classList.add('click');
+        cursorDot.classList.add('click');
+        
+        // Create ripple effect
+        const ripple = document.createElement('div');
+        ripple.className = 'ripple';
+        ripple.style.left = mouseX + 'px';
+        ripple.style.top = mouseY + 'px';
+        document.body.appendChild(ripple);
+        
+        setTimeout(() => {
+            ripple.remove();
+        }, 600);
+    });
+    
+    document.addEventListener('mouseup', () => {
+        cursor.classList.remove('click');
+        cursorDot.classList.remove('click');
+    });
+    
+    // Hide cursor when leaving window
+    document.addEventListener('mouseleave', () => {
+        cursor.style.opacity = '0';
+        cursorDot.style.opacity = '0';
+        cursorGlow.style.opacity = '0';
+    });
+    
+    document.addEventListener('mouseenter', () => {
+        cursor.style.opacity = '1';
+        cursorDot.style.opacity = '1';
+        cursorGlow.style.opacity = '0.5';
+    });
+}
+
+// ==========================================
+// MAGNETIC EFFECT ON INTERACTIVE ELEMENTS
+// ==========================================
+function initMagneticEffect() {
+    // Only on desktop
+    if (window.innerWidth <= 768) return;
+    
+    const magneticElements = document.querySelectorAll(
+        '.btn, .project-card, .social-link, .skill-chip, .achievement-card, .nav-links a, .project-link, .info-card'
+    );
+    
+    magneticElements.forEach(el => {
+        el.classList.add('magnetic');
+        
+        el.addEventListener('mousemove', (e) => {
+            const rect = el.getBoundingClientRect();
+            const x = e.clientX - rect.left - rect.width / 2;
+            const y = e.clientY - rect.top - rect.height / 2;
+            
+            // Magnetic strength (adjust for different element sizes)
+            let strength = 0.3;
+            if (el.classList.contains('btn') || el.classList.contains('social-link')) {
+                strength = 0.5;
+            } else if (el.classList.contains('project-card')) {
+                strength = 0.2;
+            } else if (el.classList.contains('skill-chip')) {
+                strength = 0.4;
+            }
+            
+            // Apply magnetic effect with smooth easing
+            const moveX = x * strength;
+            const moveY = y * strength;
+            
+            el.style.transform = `translate(${moveX}px, ${moveY}px) scale(1.02)`;
+        });
+        
+        el.addEventListener('mouseleave', () => {
+            el.style.transform = 'translate(0, 0)';
+        });
+    });
+}
 
 // ==========================================
 // CONSOLE MESSAGE

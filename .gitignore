@@ -8,3 +8,6 @@ Thumbs.db
 
 # Dependency directories
 node_modules/
+
+# Duplicate project folder
+SairajJadhav08/
