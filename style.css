@@ -514,6 +514,7 @@ header.scrolled {
     border: 1px solid rgba(255, 255, 255, 0.15);
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .social-link::before {
@@ -702,6 +703,10 @@ header.scrolled {
     padding: var(--spacing-xl) 5%;
     position: relative;
     overflow: visible;
+    background: var(--light-bg);
+    color: var(--text-dark);
+    transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-dark {
@@ -709,6 +714,8 @@ header.scrolled {
     color: var(--text-white);
     position: relative;
     overflow: hidden;
+    transition: background 0.6s cubic-bezier(0.4, 0, 0.2, 1), 
+                color 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Animated Geometric Shapes for Dark Sections (excluding hero) */
@@ -895,15 +902,17 @@ header.scrolled {
    ABOUT SECTION
    ========================================== */
 .about-content {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 4rem;
-    align-items: start;
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .about-text {
     font-size: 1.05rem;
     line-height: 1.8;
+    width: 100%;
+    text-align: left;
 }
 
 .lead-text {
@@ -1448,14 +1457,77 @@ header.scrolled {
 .project-role {
     font-size: 0.9rem;
     color: var(--primary-light);
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
+    border-left: 3px solid var(--primary);
+    border-radius: 6px;
+    display: inline-block;
+    box-shadow: 0 2px 8px rgba(99, 102, 241, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .project-description {
     color: var(--text-light);
     line-height: 1.6;
     margin-bottom: 1.5rem;
+}
+
+.project-features {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--primary-color);
+}
+
+.project-features h4 {
+    color: var(--white);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-features ul li {
+    color: var(--text-light);
+    font-size: 0.85rem;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6rem;
+    transition: color var(--transition-normal);
+}
+
+.project-features ul li:last-child {
+    margin-bottom: 0;
+}
+
+.project-features ul li i {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+    width: 16px;
+}
+
+.project-features ul li:hover {
+    color: var(--white);
+}
+
+.project-features ul li:hover i {
+    color: var(--accent-color);
+    transform: scale(1.1);
 }
 
 .project-tech {
@@ -1478,7 +1550,7 @@ header.scrolled {
    ========================================== */
 .achievements-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-bottom: 4rem;
 }
@@ -1604,7 +1676,7 @@ header.scrolled {
 
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     align-items: start;
     overflow: visible;
@@ -1666,7 +1738,9 @@ header.scrolled {
     transform: translateY(-25px) scale(1.25);
     box-shadow: 0 40px 100px rgba(0, 0, 0, 0.7), 0 0 0 4px rgba(99, 102, 241, 0.7);
     border-color: rgba(99, 102, 241, 0.8);
-    background: rgba(255, 255, 255, 0.18);
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(25px) saturate(180%);
+    -webkit-backdrop-filter: blur(25px) saturate(180%);
     z-index: 100;
     overflow: hidden;
     min-height: auto;
@@ -1690,7 +1764,8 @@ header.scrolled {
 }
 
 .cert-card:hover .cert-content {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0;
 }
 
 .cert-image-wrapper {
@@ -1715,7 +1790,7 @@ header.scrolled {
     max-height: 2000px;
     height: auto;
     opacity: 1;
-    margin-top: 0;
+    margin-top: 1rem;
     margin-bottom: 0;
     padding: 0;
     min-height: auto;
@@ -1928,6 +2003,299 @@ header.scrolled {
     color: var(--primary-light);
     font-weight: 600;
     font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+}
+
+.cert-description {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.95;
+    padding-right: 0.5rem;
+}
+
+/* Enhanced text visibility on hover */
+.cert-card:hover .cert-info h4 {
+    color: #ffffff !important;
+    font-weight: 700;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.cert-card:hover .cert-issuer {
+    color: #a5b4fc !important;
+    font-weight: 700;
+    opacity: 1;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cert-card:hover .cert-description {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    font-weight: 600;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* ==========================================
+   STRENGTHS SECTION
+   ========================================== */
+.strengths-section {
+    margin-top: 2rem;
+}
+
+.strengths-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.strength-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    padding: 2.5rem 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transition: all var(--transition-normal);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.strength-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--gradient-primary);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform var(--transition-normal);
+}
+
+.strength-card:hover::before {
+    transform: scaleY(1);
+}
+
+.strength-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 16px 40px rgba(99, 102, 241, 0.3), 0 0 0 2px rgba(99, 102, 241, 0.2);
+    border-color: rgba(99, 102, 241, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.strength-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-md);
+    color: var(--white);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    transition: all var(--transition-normal);
+}
+
+.strength-card:hover .strength-icon {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+}
+
+.strength-card h3 {
+    font-size: 1.3rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.strength-description {
+    color: var(--text-light);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ==========================================
+   HOBBIES & INTERESTS SECTION
+   ========================================== */
+.hobbies-section {
+    margin-top: 2rem;
+}
+
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.hobby-card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9));
+    padding: 2.5rem 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(99, 102, 241, 0.05);
+    transition: all var(--transition-normal);
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.hobby-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: var(--gradient-primary);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform var(--transition-normal);
+}
+
+.hobby-card:hover::before {
+    transform: scaleY(1);
+}
+
+.hobby-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 16px 40px rgba(99, 102, 241, 0.2), 0 0 0 2px rgba(99, 102, 241, 0.1);
+    border-color: rgba(99, 102, 241, 0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.95));
+}
+
+.hobby-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-md);
+    color: var(--white);
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    transition: all var(--transition-normal);
+}
+
+.hobby-card:hover .hobby-icon {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+}
+
+.hobby-card h3 {
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.hobby-description {
+    color: var(--text-light);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* ==========================================
+   LANGUAGES SECTION
+   ========================================== */
+.languages-section {
+    margin-top: 2rem;
+}
+
+.languages-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.language-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    padding: 2.5rem 2rem;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: all var(--transition-normal);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.language-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: var(--gradient-primary);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform var(--transition-normal);
+}
+
+.language-card:hover::before {
+    transform: scaleX(1);
+}
+
+.language-card:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 20px 50px rgba(99, 102, 241, 0.3), 0 0 0 2px rgba(99, 102, 241, 0.2);
+    border-color: rgba(99, 102, 241, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.language-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: var(--gradient-primary);
+    border-radius: var(--radius-md);
+    color: var(--white);
+    font-size: 2rem;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    transition: all var(--transition-normal);
+}
+
+.language-card:hover .language-icon {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+}
+
+.language-card h3 {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+}
+
+.language-level {
+    color: var(--text-light);
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.language-card:hover .language-level {
+    color: var(--primary-light);
+    opacity: 1;
 }
 
 /* ==========================================
@@ -1956,6 +2324,19 @@ header.scrolled {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-download-cv {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-download-cv .btn {
+    width: auto;
+    min-width: 200px;
+    padding: 1rem 2rem;
 }
 
 .info-card {
@@ -2165,6 +2546,7 @@ footer {
     border-radius: var(--radius-sm);
     color: var(--white);
     transition: all var(--transition-normal);
+    text-decoration: none;
 }
 
 .footer-social a:hover {
@@ -2305,9 +2687,6 @@ footer {
         height: 300px;
     }
     
-    .about-content {
-        grid-template-columns: 1fr;
-    }
     
     .contact-content {
         grid-template-columns: 1fr;
@@ -2333,6 +2712,34 @@ footer {
     
     .about-stats {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Medium screens - 2 columns for certificates, achievements, and languages */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .certifications-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .achievements-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .strengths-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .hobbies-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .languages-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 }
 
@@ -2415,6 +2822,18 @@ footer {
     }
     
     .achievements-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .strengths-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .hobbies-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .languages-grid {
         grid-template-columns: 1fr;
     }
     
