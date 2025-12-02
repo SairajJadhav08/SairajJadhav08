@@ -435,6 +435,7 @@ header.scrolled {
     background: var(--gradient-primary);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
     opacity: 0;
     transition: opacity var(--transition-normal);
@@ -1135,6 +1136,13 @@ header.scrolled {
     gap: 2.5rem;
 }
 
+.skills-grid-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
 .skill-category {
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9));
     padding: 2.5rem;
@@ -1461,7 +1469,7 @@ header.scrolled {
     margin-bottom: 1rem;
     padding: 0.5rem 1rem;
     background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(139, 92, 246, 0.2));
-    border-left: 3px solid var(--primary);
+    border-left: 3px solid var(--primary-color);
     border-radius: 6px;
     display: inline-block;
     box-shadow: 0 2px 8px rgba(99, 102, 241, 0.2);
