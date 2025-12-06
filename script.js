@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initFormHandler();
     initSmoothScroll();
     initCustomCursor();
-    initMagneticEffect();
+    // initMagneticEffect(); // Magnetic effect disabled
 });
 
 // ==========================================

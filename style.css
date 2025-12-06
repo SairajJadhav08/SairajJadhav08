@@ -1684,44 +1684,66 @@ header.scrolled {
 
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    align-items: start;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    align-items: stretch;
     overflow: visible;
     width: 100%;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .certifications-section {
     overflow: visible;
+    position: relative;
 }
 
-/* When a card is hovered, adjust grid to accommodate expansion */
-.certifications-grid:hover .cert-card:not(:hover) {
-    opacity: 0.4;
-    transform: scale(0.9);
-    filter: blur(2px);
-    transition: all 0.3s ease;
+/* Removed backdrop overlay - no popup effect */
+
+/* ==========================================
+   CERTIFICATE CARDS - UNIFORM STYLING
+   All certificates follow the same CSS styling
+   ========================================== */
+
+/* Subtle hover effect on cards - applies to ALL certificates uniformly */
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(99, 102, 241, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Ensure first two certificates have the same hover effect as others */
+.cert-card:first-child:hover,
+.cert-card:nth-child(2):hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(99, 102, 241, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base card styling - consistent for all certificates */
 .cert-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: var(--radius-lg);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(255, 255, 255, 0.15);
     position: relative;
     overflow: hidden;
     cursor: pointer;
     z-index: 1;
     min-height: fit-content;
+    height: 100%;
     width: 100%;
+    max-width: 100%;
+    min-width: 0;
     box-sizing: border-box;
-    transform: scale(1);
+    gap: 1.5rem;
+    align-items: stretch;
 }
 
 .cert-card::before {
@@ -1742,87 +1764,102 @@ header.scrolled {
     transform: scaleY(1);
 }
 
-.cert-card:hover {
-    transform: translateY(-25px) scale(1.25);
-    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.7), 0 0 0 4px rgba(99, 102, 241, 0.7);
-    border-color: rgba(99, 102, 241, 0.8);
-    background: rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(25px) saturate(180%);
-    -webkit-backdrop-filter: blur(25px) saturate(180%);
-    z-index: 100;
-    overflow: hidden;
-    min-height: auto;
-    height: auto;
-    padding: 3rem;
-    padding-bottom: 3rem;
-    max-width: 100%;
-    width: auto;
-    min-width: 100%;
-}
+/* Removed popup animation - static layout */
 
+/* Certificate content section - uniform styling for all certificates */
 .cert-content {
     display: flex;
+    flex-direction: column;
     align-items: start;
     gap: 1.5rem;
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     z-index: 2;
     flex-shrink: 0;
-    width: 100%;
+    width: auto;
+    min-width: 250px;
+    max-width: 320px;
+    flex: 0 0 320px;
+    height: 100%;
+    align-self: stretch;
 }
 
-.cert-card:hover .cert-content {
-    margin-bottom: 1.5rem;
-    padding-bottom: 0;
-}
-
+/* Certificate image wrapper - uniform styling for all certificates */
 .cert-image-wrapper {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 0;
+    width: auto;
+    max-width: 100%;
+    min-width: 0;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     border-radius: var(--radius-md);
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
     position: relative;
     z-index: 2;
-    transform: translateY(-10px);
     box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(99, 102, 241, 0.5) transparent;
+    height: 100%;
+    align-self: stretch;
 }
 
-.cert-card:hover .cert-image-wrapper {
-    max-height: 2000px;
-    height: auto;
-    opacity: 1;
-    margin-top: 1rem;
-    margin-bottom: 0;
-    padding: 0;
-    min-height: auto;
-    overflow: hidden;
-    transform: translateY(0);
+.cert-image-wrapper::-webkit-scrollbar {
+    width: 6px;
 }
 
+.cert-image-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cert-image-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(99, 102, 241, 0.5);
+    border-radius: 3px;
+}
+
+.cert-image-wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgba(99, 102, 241, 0.7);
+}
+
+.cert-card:hover .cert-image-wrapper::-webkit-scrollbar {
+    width: 6px;
+}
+
+.cert-card:hover .cert-image-wrapper::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cert-card:hover .cert-image-wrapper::-webkit-scrollbar-thumb {
+    background: rgba(99, 102, 241, 0.5);
+    border-radius: 3px;
+}
+
+.cert-card:hover .cert-image-wrapper::-webkit-scrollbar-thumb:hover {
+    background: rgba(99, 102, 241, 0.7);
+}
+
+/* Certificate image - uniform styling for all certificate images */
 .cert-image {
-    width: auto;
+    width: 100%;
     max-width: 100%;
-    max-width: min(calc(100% - 1rem), 550px);
     height: auto;
-    max-height: 70vh;
+    max-height: none;
     object-fit: contain;
     border-radius: var(--radius-md);
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.3s ease;
     display: block;
     margin: 0 auto;
     box-sizing: border-box;
+    visibility: visible;
+    opacity: 1;
 }
 
+/* Uniform hover effect for all certificate images */
 .cert-card:hover .cert-image {
-    transform: scale(1.02);
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
 
@@ -1975,6 +2012,7 @@ header.scrolled {
     border-color: transparent;
 }
 
+/* Certificate icon - uniform styling for all certificates */
 .cert-icon {
     display: flex;
     align-items: center;
@@ -1990,11 +2028,13 @@ header.scrolled {
     transition: all var(--transition-normal);
 }
 
+/* Uniform hover effect for all certificate icons */
 .cert-card:hover .cert-icon {
     transform: scale(1.1) rotate(5deg);
     box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
 }
 
+/* Certificate info title - uniform styling for all certificates */
 .cert-info h4 {
     font-size: 1.1rem;
     color: var(--white);
@@ -2007,6 +2047,7 @@ header.scrolled {
     color: var(--white);
 }
 
+/* Certificate issuer - uniform styling for all certificates */
 .cert-issuer {
     color: var(--primary-light);
     font-weight: 600;
@@ -2014,6 +2055,7 @@ header.scrolled {
     margin-bottom: 0.8rem;
 }
 
+/* Certificate description - uniform styling for all certificates */
 .cert-description {
     color: var(--text-light);
     font-size: 0.9rem;
@@ -2024,7 +2066,7 @@ header.scrolled {
     padding-right: 0.5rem;
 }
 
-/* Enhanced text visibility on hover */
+/* Enhanced text visibility on hover - uniform for all certificates */
 .cert-card:hover .cert-info h4 {
     color: #ffffff !important;
     font-weight: 700;
@@ -2726,8 +2768,32 @@ footer {
 /* Medium screens - 2 columns for certificates, achievements, and languages */
 @media (max-width: 1024px) and (min-width: 769px) {
     .certifications-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 1.5rem;
+    }
+    
+    .cert-card {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .cert-content {
+        min-width: auto;
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    
+    .cert-image-wrapper {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        flex: 1 1 auto;
+    }
+    
+    .cert-image {
+        max-height: none;
+        min-height: auto;
     }
     
     .achievements-grid {
@@ -2871,18 +2937,30 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .cert-card:hover {
-        transform: translateY(-15px) scale(1.12);
-        z-index: 100;
+    .cert-card {
+        flex-direction: column;
+        gap: 1.5rem;
     }
     
-    .cert-card:hover .cert-image-wrapper {
-        max-height: 1500px;
+    .cert-content {
+        min-width: auto;
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+    
+    .cert-image-wrapper {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        flex: 1 1 auto;
     }
     
     .cert-image {
-        max-width: 70vw;
-        max-width: min(70vw, 450px);
+        width: auto;
+        max-width: 100%;
+        max-height: none;
+        min-height: auto;
     }
 }
 
@@ -2920,20 +2998,29 @@ footer {
     
     .cert-card {
         padding: 1.5rem;
+        flex-direction: column;
+        gap: 1.5rem;
     }
     
-    .cert-card:hover {
-        transform: translateY(-12px) scale(1.1);
-        z-index: 100;
+    .cert-content {
+        min-width: auto;
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 auto;
     }
     
-    .cert-card:hover .cert-image-wrapper {
-        max-height: 1200px;
+    .cert-image-wrapper {
+        max-width: 100%;
+        min-width: 100%;
+        width: 100%;
+        flex: 1 1 auto;
     }
     
     .cert-image {
-        max-width: 85vw;
-        max-width: min(85vw, 350px);
+        width: auto;
+        max-width: 100%;
+        max-height: none;
+        min-height: auto;
     }
 }
 
@@ -3015,15 +3102,15 @@ footer {
     background: var(--accent-pink);
 }
 
-/* Magnetic effect on interactive elements */
-.magnetic {
+/* Magnetic effect on interactive elements - DISABLED */
+/* .magnetic {
     transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
     will-change: transform;
 }
 
 .magnetic:hover {
     transform: translateZ(0);
-}
+} */
 
 /* Cursor glow effect */
 .cursor-glow {
