@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initTypingEffect();
     initAOS();
     initCounters();
-    initParticles();
+    // initParticles(); // Particles removed
     initFormHandler();
     initSmoothScroll();
     initCustomCursor();
