@@ -1252,8 +1252,8 @@ header.scrolled .navbar {
 
 /* CGPA Container - Professional Grid Display */
 .cgpa-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
     margin: 1rem 0 1.25rem 0;
     padding: 0.75rem;
@@ -1261,31 +1261,6 @@ header.scrolled .navbar {
     border-radius: var(--radius-md);
     border: 1px solid rgba(255, 255, 255, 0.1);
     max-width: fit-content;
-}
-
-/* Vertical layout for BTech/multiple semesters */
-.timeline-item:last-child .cgpa-container {
-    grid-template-columns: 1fr;
-    max-width: 200px;
-}
-
-.timeline-item:last-child .cgpa-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.75rem;
-    align-items: center;
-    padding: 0.75rem 1rem;
-    min-width: auto;
-}
-
-.timeline-item:last-child .semester-label {
-    text-align: left;
-    font-size: 0.8rem;
-}
-
-.timeline-item:last-child .cgpa-value {
-    text-align: right;
-    font-size: 1.4rem;
 }
 
 .cgpa-item {
