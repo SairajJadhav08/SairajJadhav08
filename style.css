@@ -2586,10 +2586,14 @@ header.scrolled .navbar {
 
 .contact-download-cv {
     margin-top: 1.5rem;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
 }
 
 .contact-download-cv .btn {
-    width: 100%;
+    flex: 1;
+    min-width: 140px;
     justify-content: center;
 }
 
