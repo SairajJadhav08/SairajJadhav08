@@ -158,14 +158,15 @@ header.scrolled {
 }
 
 .navbar {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
     padding: 1.3rem 5%;
     max-width: 1400px;
     margin: 0 auto;
     transition: padding var(--transition-normal);
     position: relative;
+    gap: 2rem;
 }
 
 header.scrolled .navbar {
@@ -183,10 +184,10 @@ header.scrolled .navbar {
     align-items: center;
     gap: 0.3rem;
     transition: all var(--transition-normal);
-    position: absolute;
-    left: 5%;
+    position: relative;
     padding: 0.6rem 1.1rem;
     border-radius: var(--radius-sm);
+    justify-self: start;
 }
 
 .logo::before {
@@ -254,11 +255,18 @@ header.scrolled .navbar {
 }
 
 /* Enhanced Nav Links with Multiple Effects */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-links ul {
     display: flex;
     list-style: none;
     gap: 0.2rem;
     align-items: center;
+    justify-content: center;
 }
 
 .nav-links ul li {
@@ -352,8 +360,8 @@ header.scrolled .navbar {
     padding: 0.6rem;
     border-radius: var(--radius-sm);
     transition: all var(--transition-normal);
-    position: absolute;
-    right: 5%;
+    position: relative;
+    justify-self: end;
 }
 
 .mobile-menu-btn:hover {
@@ -3545,6 +3553,11 @@ footer {
 
 @media (max-width: 992px) {
     /* Navbar adjustments for medium screens */
+    .navbar {
+        grid-template-columns: auto 1fr auto;
+        gap: 1rem;
+    }
+    
     .mobile-menu-btn {
         display: flex;
     }
