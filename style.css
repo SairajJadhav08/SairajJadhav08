@@ -1773,6 +1773,19 @@ header.scrolled .navbar {
     overflow: hidden;
 }
 
+/* Dark section achievement cards */
+.section-dark .achievement-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.section-dark .achievement-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
 .achievement-card::before {
     content: '';
     position: absolute;
@@ -1844,6 +1857,10 @@ header.scrolled .navbar {
     margin-bottom: 1rem;
 }
 
+.section-dark .achievement-card h3 {
+    color: var(--white);
+}
+
 .achievement-org {
     color: var(--primary-color);
     font-weight: 600;
@@ -1851,9 +1868,17 @@ header.scrolled .navbar {
     font-size: 0.95rem;
 }
 
+.section-dark .achievement-org {
+    color: var(--primary-light);
+}
+
 .achievement-desc {
     color: var(--text-light);
     line-height: 1.6;
+}
+
+.section-dark .achievement-desc {
+    color: rgba(241, 245, 249, 0.8);
 }
 
 /* ==========================================
@@ -2404,6 +2429,19 @@ header.scrolled .navbar {
     cursor: pointer;
 }
 
+/* Dark section publication cards */
+.section-dark .publication-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.section-dark .publication-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
 .publication-card::before {
     content: '';
     position: absolute;
@@ -2460,11 +2498,19 @@ header.scrolled .navbar {
     line-height: 1.4;
 }
 
+.section-dark .publication-content h3 {
+    color: var(--white);
+}
+
 .publication-authors {
     color: var(--primary-color);
     font-weight: 600;
     font-size: 0.95rem;
     margin-bottom: 0.5rem;
+}
+
+.section-dark .publication-authors {
+    color: var(--primary-light);
 }
 
 .publication-venue {
@@ -2475,10 +2521,18 @@ header.scrolled .navbar {
     font-style: italic;
 }
 
+.section-dark .publication-venue {
+    color: rgba(241, 245, 249, 0.9);
+}
+
 .publication-year {
     color: var(--text-light);
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
+}
+
+.section-dark .publication-year {
+    color: rgba(241, 245, 249, 0.7);
 }
 
 .publication-keywords {
@@ -2488,6 +2542,10 @@ header.scrolled .navbar {
     margin-bottom: 0.8rem;
 }
 
+.section-dark .publication-keywords {
+    color: rgba(241, 245, 249, 0.7);
+}
+
 .publication-abstract {
     color: var(--text-light);
     font-size: 0.9rem;
@@ -2495,6 +2553,11 @@ header.scrolled .navbar {
     margin-bottom: 1rem;
     padding-top: 0.8rem;
     border-top: 1px solid rgba(99, 102, 241, 0.1);
+}
+
+.section-dark .publication-abstract {
+    color: rgba(241, 245, 249, 0.8);
+    border-top-color: rgba(255, 255, 255, 0.1);
 }
 
 .publication-links {
@@ -2628,6 +2691,18 @@ header.scrolled .navbar {
     overflow: hidden;
 }
 
+/* White section strength cards */
+.section:not(.section-dark) .strength-card {
+    background: var(--white);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-card);
+}
+
+.section:not(.section-dark) .strength-card:hover {
+    box-shadow: var(--shadow-card-hover);
+    border-color: rgba(37, 99, 235, 0.2);
+}
+
 .strength-card::before {
     content: '';
     position: absolute;
@@ -2680,11 +2755,19 @@ header.scrolled .navbar {
     line-height: 1.4;
 }
 
+.section:not(.section-dark) .strength-card h3 {
+    color: var(--text-dark);
+}
+
 .strength-description {
     color: var(--text-light);
     font-size: 1rem;
     line-height: 1.7;
     margin: 0;
+}
+
+.section-dark .strength-description {
+    color: rgba(241, 245, 249, 0.8);
 }
 
 /* ==========================================
@@ -2710,6 +2793,19 @@ header.scrolled .navbar {
     border: 2px solid transparent;
     position: relative;
     overflow: hidden;
+}
+
+/* Dark section hobby cards */
+.section-dark .hobby-card {
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.section-dark .hobby-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
 }
 
 .hobby-card::before {
@@ -2764,11 +2860,19 @@ header.scrolled .navbar {
     line-height: 1.4;
 }
 
+.section-dark .hobby-card h3 {
+    color: var(--white);
+}
+
 .hobby-description {
     color: var(--text-light);
     font-size: 1rem;
     line-height: 1.7;
     margin: 0;
+}
+
+.section-dark .hobby-description {
+    color: rgba(241, 245, 249, 0.8);
 }
 
 /* ==========================================
@@ -2797,6 +2901,18 @@ header.scrolled .navbar {
     border: 1px solid rgba(255, 255, 255, 0.15);
     position: relative;
     overflow: hidden;
+}
+
+/* White section language cards */
+.section:not(.section-dark) .language-card {
+    background: var(--white);
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-card);
+}
+
+.section:not(.section-dark) .language-card:hover {
+    box-shadow: var(--shadow-card-hover);
+    border-color: rgba(37, 99, 235, 0.2);
 }
 
 .language-card::before {
@@ -2850,6 +2966,10 @@ header.scrolled .navbar {
     font-weight: 700;
 }
 
+.section:not(.section-dark) .language-card h3 {
+    color: var(--text-dark);
+}
+
 .language-level {
     color: var(--text-light);
     font-size: 1rem;
@@ -2857,9 +2977,21 @@ header.scrolled .navbar {
     opacity: 0.9;
 }
 
+.section-dark .language-level {
+    color: rgba(241, 245, 249, 0.8);
+}
+
+.section:not(.section-dark) .language-level {
+    color: var(--text-medium);
+}
+
 .language-card:hover .language-level {
     color: var(--primary-light);
     opacity: 1;
+}
+
+.section:not(.section-dark) .language-card:hover .language-level {
+    color: var(--primary-color);
 }
 
 /* ==========================================
