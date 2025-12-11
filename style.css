@@ -159,12 +159,13 @@ header.scrolled {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1.3rem 5%;
     max-width: 1400px;
     margin: 0 auto;
     transition: padding var(--transition-normal);
+    position: relative;
 }
 
 header.scrolled .navbar {
@@ -182,7 +183,8 @@ header.scrolled .navbar {
     align-items: center;
     gap: 0.3rem;
     transition: all var(--transition-normal);
-    position: relative;
+    position: absolute;
+    left: 5%;
     padding: 0.6rem 1.1rem;
     border-radius: var(--radius-sm);
 }
@@ -350,7 +352,8 @@ header.scrolled .navbar {
     padding: 0.6rem;
     border-radius: var(--radius-sm);
     transition: all var(--transition-normal);
-    position: relative;
+    position: absolute;
+    right: 5%;
 }
 
 .mobile-menu-btn:hover {
