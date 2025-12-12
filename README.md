@@ -144,58 +144,7 @@ From creating smart healthcare systems to working on **regional alert platforms*
   
   <br/>
   <br/>
-  
-  ### 📈 Contribution Stats
-  
-  <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=SairajJadhav08&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  </div>
-  
-  <br/>
-  
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=SairajJadhav08&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=36BCF7&line=36BCF7&point=FFFFFF" alt="GitHub Activity Graph" />
-  </div>
-  
-  <br/>
-  <br/>
-  
-  ### 🏆 GitHub Trophies & Achievements
-  
-  <p align="center">
-    <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-frame=false" alt="GitHub Trophies" />
-    </a>
-  </p>
-  
-  <br/>
-  
-  ### 🎯 Contribution Highlights
-  
-  <div align="center">
-  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SairajJadhav08&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&layout=compact" alt="Top Languages" />
-  
-  <br/>
-  <br/>
-  
-  <table>
-  <tr>
-  <td align="center">
-    <img src="https://github-readme-streak-stats.demolab.com/?user=SairajJadhav08&theme=tokyonight&hide_border=true&background=0D1117&ring=36BCF7&fire=FF6B35&currStreakLabel=36BCF7" alt="GitHub Streak" />
-  </td>
-  </tr>
-  </table>
-  
-  <br/>
-  
-  <p align="center">
-    <img src="https://img.shields.io/github/stars/SairajJadhav08?label=Total%20Stars&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Total Stars" />
-    <img src="https://img.shields.io/github/followers/SairajJadhav08?label=Followers&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="GitHub Followers" />
-    <img src="https://img.shields.io/github/forks/SairajJadhav08?label=Forks&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Forks" />
-  </p>
-  
-  </div>
+
 
 </div>
 
