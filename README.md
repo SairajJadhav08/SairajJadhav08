@@ -73,6 +73,7 @@
 
 | Project | Description | Tech |
 | :--- | :--- | :--- |
+| 🔹 [**Viro-AI Hub**](https://github.com/SairajJadhav08/Viro-ai-hub) | AI-powered platform for viral analysis, mutation prediction, and drug discovery. | ![AI](https://img.shields.io/badge/AI-Artificial%20Intelligence-orange?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
 | 🔹 [**MedVault**](https://github.com/SairajJadhav08) | A secure and smart medical record management system. | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) |
 | 🔹 [**Smart Regional Alert**](https://github.com/SairajJadhav08) | Alert system for disease outbreaks & traffic with navigation. | ![IoT](https://img.shields.io/badge/IoT-Internet%20of%20Things-blue?style=for-the-badge) ![AI](https://img.shields.io/badge/AI-Artificial%20Intelligence-orange?style=for-the-badge) |
 | 🔹 [**Real-Time Card Detector**](https://github.com/SairajJadhav08/Real-Time-Card-Detector) | Detects playing cards in real time using YOLOv8 and OpenCV. | ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge) ![OpenCV](https://img.shields.io/badge/OpenCV-white?style=for-the-badge&logo=opencv&logoColor=white) |
