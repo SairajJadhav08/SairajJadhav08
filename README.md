@@ -63,7 +63,7 @@
 
   <br/>
   
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SairajJadhav08&theme=tokyonight&hide_border=true&background=0D1117" alt="streak graph" />
+  <img src="https://github-readme-streak-stats.demolab.com/?user=SairajJadhav08&theme=tokyonight&hide_border=true&background=0D1117" alt="streak graph" />
 
 </div>
 
