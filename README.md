@@ -1,6 +1,6 @@
 <div align="center">
   
-  ![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:5C3EE8&height=200&section=header&text=Sairaj%20Jadhav&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32)
+  ![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A1B27&height=200&section=header&text=Sairaj%20Jadhav&fontSize=42&fontColor=36BCF7&animation=twinkling&fontAlignY=32&desc=Engineering%20Student%20%7C%20Developer%20%7C%20Innovator&descAlignY=50&descSize=20)
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Sairaj+Jadhav+%F0%9F%91%8B;Engineering+Student;Developer+%7C+Innovator;Building+Tech+for+Impact" alt="Typing SVG" />
   
@@ -20,10 +20,9 @@
 <br/>
 
 <div align="center">
-  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight" width="500" alt="Random Joke" />
+  <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&bg_color=0D1117" width="500" alt="Random Joke" />
   <br/>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="500" alt="Random Quote" />
-  
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&bg_color=0D1117" width="500" alt="Random Quote" />
 </div>
 
 <br/>
@@ -117,7 +116,9 @@
   ### 🏆 GitHub Trophies
   
   <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
+      <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-bg=false&no-frame=false" alt="GitHub Trophies" />
+    </a>
   </p>
 
 </div>
