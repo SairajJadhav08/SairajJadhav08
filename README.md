@@ -1,8 +1,13 @@
-<div align="left">
+
+<table>
+  <tr>
+    <td width="60%" valign="top">
 
 ### Hello, I'm
 
-# **Sairaj Jadhav**
+<div align="left">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=false&vCenter=true&width=435&lines=Sairaj+Jadhav+%F0%9F%91%8B;Engineering+Student;Developer+%7C+Innovator;Building+Tech+for+Impact" alt="Typing SVG" />
+</div>
 
 ### I'm a
 
@@ -33,7 +38,16 @@ From creating smart healthcare systems to working on **regional alert platforms*
   </a>
 </p>
 
+    </td>
+    <td width="40%" valign="top" align="center">
+
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
 </div>
+
+    </td>
+  </tr>
+</table>
 
 <br/>
 
