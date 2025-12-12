@@ -37,7 +37,29 @@
 
   ## 🛠️ Tech Stack
 
-  <img src="https://skillicons.dev/icons?i=python,js,java,c,cpp,react,fastapi,flask,git,github,raspberrypi,arduino,html,css,vscode&perline=8" />
+  ### Languages
+  <img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp,html,css&perline=8" />
+  
+  ### Frameworks & Libraries
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,fastapi,flask&perline=8" />
+  
+  ### AI/ML & Data Science
+  <img src="https://skillicons.dev/icons?i=tensorflow,opencv&perline=8" />
+  <br/>
+  ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge&logo=yolo&logoColor=white)
+  
+  ### Embedded & IoT
+  <img src="https://skillicons.dev/icons?i=raspberrypi,arduino&perline=8" />
+  <br/>
+  ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+  ![LoRa](https://img.shields.io/badge/LoRa-FF0000?style=for-the-badge&logo=lora&logoColor=white)
+  
+  ### Tools & Platforms
+  <img src="https://skillicons.dev/icons?i=git,github,firebase,figma,vscode&perline=8" />
+  
+  ### GenAI Tools
+  ![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+  ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
@@ -100,15 +122,30 @@
 
   ### 🌐 Reach Out On
 
-  <a href="https://www.linkedin.com/in/sairaj-jadhav-"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/SairajJadhav08"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.instagram.com/sairaj_jadhav_05"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-  <a href="mailto:sairajjadhav433@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <p align="center">
+    <a href="https://sairajjadhav08.github.io/SairajJadhav08/" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_My_Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+    </a>
+    <a href="https://www.linkedin.com/in/sairaj-jadhav-" target="_blank">
+      <img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    <a href="https://github.com/SairajJadhav08" target="_blank">
+      <img src="https://img.shields.io/badge/💻_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
+    <a href="https://www.instagram.com/sairaj_jadhav_05" target="_blank">
+      <img src="https://img.shields.io/badge/📷_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+    </a>
+    <a href="mailto:sairajjadhav433@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/📧_Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+  </p>
 
   <br/>
   <br/>
 
-  <img src="https://komarev.com/ghpvc/?username=SairajJadhav08&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
+  <a href="https://www.linkedin.com/in/sairaj-jadhav-"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.instagram.com/sairaj_jadhav_05"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="mailto:sairajjadhav433@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
   <br/>
   <br/>
