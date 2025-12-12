@@ -1,21 +1,39 @@
-<div align="center">
-  
-  ![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:1A1B27&height=200&section=header&text=Sairaj%20Jadhav&fontSize=42&fontColor=36BCF7&animation=twinkling&fontAlignY=32&desc=Engineering%20Student%20%7C%20Developer%20%7C%20Innovator&descAlignY=50&descSize=20)
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Sairaj+Jadhav+%F0%9F%91%8B;Engineering+Student;Developer+%7C+Innovator;Building+Tech+for+Impact" alt="Typing SVG" />
-  
-</div>
+<div align="left">
 
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200" />
-</div>
+### Hello, I'm
 
-<h3 align="center">🚀 Engineering Student | Developer | Innovator</h3>
+# **Sairaj Jadhav**
 
-<p align="center">
-  I love building projects that combine <b>software, hardware, and AI</b> to solve real-world problems. <br/>
-  From creating smart healthcare systems to working on <b>regional alert platforms</b> and fun side projects like games & meme generators.
+### I'm a
+
+**Third-year engineering student passionate about solving real-world problems through code, circuits, and creativity. Building intuitive devices, alert-based systems, and interactive simulations.**
+
+I love building projects that combine **software, hardware, and AI** to solve real-world problems.  
+From creating smart healthcare systems to working on **regional alert platforms** and fun side projects like games & meme generators.
+
+---
+
+### 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://sairajjadhav08.github.io/SairajJadhav08/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/sairaj-jadhav-" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/SairajJadhav08" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.instagram.com/sairaj_jadhav_05" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="mailto:sairajjadhav433@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
+
+</div>
 
 <br/>
 
@@ -117,9 +135,42 @@
   
   <p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-bg=false&no-frame=false" alt="GitHub Trophies" />
+      <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
     </a>
   </p>
+
+</div>
+
+<br/>
+
+## 🏅 Achievements
+
+<div align="center">
+
+### Competition Wins & Recognitions
+
+![🥇 Ideathon Winner](https://img.shields.io/badge/🥇_Ideathon_Winner-FFD700?style=for-the-badge&logo=star&logoColor=000000)
+![🥈 National Hackathon 2nd](https://img.shields.io/badge/🥈_National_Hackathon_2nd-C0C0C0?style=for-the-badge&logo=trophy&logoColor=000000)
+![🥉 Hackathought 3rd](https://img.shields.io/badge/🥉_Hackathought_3rd-CD7F32?style=for-the-badge&logo=award&logoColor=FFFFFF)
+![🥇 Poster Competition 1st](https://img.shields.io/badge/🥇_Poster_Competition_1st-FFD700?style=for-the-badge&logo=medal&logoColor=000000)
+
+<br/>
+
+### Major Achievements
+
+![Smart India Hackathon 2025](https://img.shields.io/badge/Smart_India_Hackathon_2025-Selected-00A86B?style=for-the-badge&logo=github&logoColor=FFFFFF)
+![SciTech Innovation Round 2](https://img.shields.io/badge/SciTech_Innovation-Round_2-FF6B6B?style=for-the-badge&logo=rocket&logoColor=FFFFFF)
+![Viro-AI ₹3000 Prize](https://img.shields.io/badge/Viro--AI-₹3000_Prize-9B59B6?style=for-the-badge&logo=brain&logoColor=FFFFFF)
+![Research Published](https://img.shields.io/badge/Research_Publication-Published-3498DB?style=for-the-badge&logo=book&logoColor=FFFFFF)
+
+<br/>
+
+### Stats
+
+![Projects](https://img.shields.io/badge/Projects-11-FF6B9D?style=for-the-badge&logo=code&logoColor=FFFFFF)
+![Hackathon Wins](https://img.shields.io/badge/Hackathon_Wins-3-4ECDC4?style=for-the-badge&logo=trophy&logoColor=FFFFFF)
+![Competition Wins](https://img.shields.io/badge/Competition_Wins-4-FFE66D?style=for-the-badge&logo=medal&logoColor=000000)
+![CGPA](https://img.shields.io/badge/CGPA-8.11-95E1D3?style=for-the-badge&logo=graduation-cap&logoColor=FFFFFF)
 
 </div>
 
@@ -152,29 +203,6 @@
     <i>Always excited to connect with fellow developers, researchers, and innovators! 🚀</i>
   </p>
 
-  <br/>
-
-  ### 🌐 Reach Out On
-
-  <p align="center">
-    <a href="https://sairajjadhav08.github.io/SairajJadhav08/" target="_blank">
-      <img src="https://img.shields.io/badge/🌐_My_Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
-    </a>
-    <a href="https://www.linkedin.com/in/sairaj-jadhav-" target="_blank">
-      <img src="https://img.shields.io/badge/💼_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="https://github.com/SairajJadhav08" target="_blank">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    </a>
-    <a href="https://www.instagram.com/sairaj_jadhav_05" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-    </a>
-    <a href="mailto:sairajjadhav433@gmail.com" target="_blank">
-      <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-  </p>
-
-  <br/>
   <br/>
 
   <img src="https://komarev.com/ghpvc/?username=SairajJadhav08&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Visitor Count" />
