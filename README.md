@@ -1,5 +1,9 @@
 <div align="center">
+  
+  ![Header Banner](https://capsule-render.vercel.app/api?type=waving&color=0:36BCF7,100:5C3EE8&height=200&section=header&text=Sairaj%20Jadhav&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32)
+  
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Sairaj+Jadhav+%F0%9F%91%8B;Engineering+Student;Developer+%7C+Innovator;Building+Tech+for+Impact" alt="Typing SVG" />
+  
 </div>
 
 <div align="center">
@@ -16,27 +20,6 @@
 <br/>
 
 <div align="center">
-  
-  ### 📊 GitHub Profile Stats
-  
-  <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=SairajJadhav08&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
-    <img src="https://img.shields.io/github/followers/SairajJadhav08?label=Followers&style=for-the-badge&color=0e75b6&logo=github" alt="GitHub Followers" />
-    <img src="https://img.shields.io/github/stars/SairajJadhav08?label=Total%20Stars&style=for-the-badge&color=0e75b6&logo=github" alt="Total Stars" />
-  </p>
-  
-  <br/>
-  
-  <img src="https://github-readme-stats.vercel.app/api?username=SairajJadhav08&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  
-  <br/>
-  <br/>
-  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SairajJadhav08&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=36BCF7&line=36BCF7&point=FFFFFF" alt="GitHub Activity Graph" />
-  
-  <br/>
-  <br/>
-  
   <img src="https://readme-jokes.vercel.app/api?theme=tokyonight" width="500" alt="Random Joke" />
   <br/>
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="500" alt="Random Quote" />
@@ -121,19 +104,21 @@
 
   ## 📊 Detailed GitHub Analytics
 
-  | ![stats graph](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SairajJadhav08&theme=tokyonight) | ![languages graph](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SairajJadhav08&theme=tokyonight) |
+  | ![stats graph](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SairajJadhav08&theme=tokyonight&bg_color=0D1117) | ![languages graph](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SairajJadhav08&theme=tokyonight&bg_color=0D1117) |
   | :-: | :-: |
 
   <br/>
   
-  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=SairajJadhav08&theme=tokyonight&hide_border=true" alt="streak graph" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=SairajJadhav08&theme=tokyonight&hide_border=true&background=0D1117" alt="streak graph" />
   
   <br/>
   <br/>
   
   ### 🏆 GitHub Trophies
   
-  <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies" />
+  <p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  </p>
 
 </div>
 
