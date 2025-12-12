@@ -17,11 +17,21 @@
 I love building projects that combine **software, hardware, and AI** to solve real-world problems.  
 From creating smart healthcare systems to working on **regional alert platforms** and fun side projects like games & meme generators.
 
+</td>
+<td width="40%" valign="middle" align="center">
+
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
+
+</td>
+</tr>
+</table>
+</div>
+
 ---
 
 ### 🌐 Connect With Me
 
-<p align="left">
+<div align="center">
   <a href="https://sairajjadhav08.github.io/SairajJadhav08/" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
@@ -37,16 +47,6 @@ From creating smart healthcare systems to working on **regional alert platforms*
   <a href="mailto:sairajjadhav433@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-</p>
-
-</td>
-<td width="40%" valign="top" align="center">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
-
-</td>
-</tr>
-</table>
 </div>
 
 <br/>
