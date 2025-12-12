@@ -33,7 +33,7 @@ From creating smart healthcare systems to working on **regional alert platforms*
 
 <div align="center">
   <a href="https://sairajjadhav08.github.io/SairajJadhav08/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/🌐Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/sairaj-jadhav-" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -145,48 +145,61 @@ From creating smart healthcare systems to working on **regional alert platforms*
   <br/>
   <br/>
   
-  ### 🏆 GitHub Trophies
+  ### 📈 Contribution Stats
+  
+  <div align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=SairajJadhav08&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&icon_color=36BCF7&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  </div>
+  
+  <br/>
+  
+  <div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=SairajJadhav08&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=36BCF7&line=36BCF7&point=FFFFFF" alt="GitHub Activity Graph" />
+  </div>
+  
+  <br/>
+  <br/>
+  
+  ### 🏆 GitHub Trophies & Achievements
   
   <p align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+      <img src="https://github-profile-trophy.vercel.app/?username=SairajJadhav08&theme=tokyonight&column=7&margin-w=15&margin-h=15&no-frame=false" alt="GitHub Trophies" />
     </a>
   </p>
+  
+  <br/>
+  
+  ### 🎯 Contribution Highlights
+  
+  <div align="center">
+  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SairajJadhav08&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=36BCF7&layout=compact" alt="Top Languages" />
+  
+  <br/>
+  <br/>
+  
+  <table>
+  <tr>
+  <td align="center">
+    <img src="https://github-readme-streak-stats.demolab.com/?user=SairajJadhav08&theme=tokyonight&hide_border=true&background=0D1117&ring=36BCF7&fire=FF6B35&currStreakLabel=36BCF7" alt="GitHub Streak" />
+  </td>
+  </tr>
+  </table>
+  
+  <br/>
+  
+  <p align="center">
+    <img src="https://img.shields.io/github/stars/SairajJadhav08?label=Total%20Stars&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Total Stars" />
+    <img src="https://img.shields.io/github/followers/SairajJadhav08?label=Followers&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/forks/SairajJadhav08?label=Forks&style=for-the-badge&color=36BCF7&logo=github&logoColor=white" alt="Forks" />
+  </p>
+  
+  </div>
 
 </div>
 
 <br/>
-
-## 🏅 Achievements
-
-<div align="center">
-
-### Competition Wins & Recognitions
-
-![🥇 Ideathon Winner](https://img.shields.io/badge/🥇_Ideathon_Winner-FFD700?style=for-the-badge&logo=star&logoColor=000000)
-![🥈 National Hackathon 2nd](https://img.shields.io/badge/🥈_National_Hackathon_2nd-C0C0C0?style=for-the-badge&logo=trophy&logoColor=000000)
-![🥉 Hackathought 3rd](https://img.shields.io/badge/🥉_Hackathought_3rd-CD7F32?style=for-the-badge&logo=award&logoColor=FFFFFF)
-![🥇 Poster Competition 1st](https://img.shields.io/badge/🥇_Poster_Competition_1st-FFD700?style=for-the-badge&logo=medal&logoColor=000000)
-
-<br/>
-
-### Major Achievements
-
-![Smart India Hackathon 2025](https://img.shields.io/badge/Smart_India_Hackathon_2025-Selected-00A86B?style=for-the-badge&logo=github&logoColor=FFFFFF)
-![SciTech Innovation Round 2](https://img.shields.io/badge/SciTech_Innovation-Round_2-FF6B6B?style=for-the-badge&logo=rocket&logoColor=FFFFFF)
-![Viro-AI ₹3000 Prize](https://img.shields.io/badge/Viro--AI-₹3000_Prize-9B59B6?style=for-the-badge&logo=brain&logoColor=FFFFFF)
-![Research Published](https://img.shields.io/badge/Research_Publication-Published-3498DB?style=for-the-badge&logo=book&logoColor=FFFFFF)
-
-<br/>
-
-### Stats
-
-![Projects](https://img.shields.io/badge/Projects-11-FF6B9D?style=for-the-badge&logo=code&logoColor=FFFFFF)
-![Hackathon Wins](https://img.shields.io/badge/Hackathon_Wins-3-4ECDC4?style=for-the-badge&logo=trophy&logoColor=FFFFFF)
-![Competition Wins](https://img.shields.io/badge/Competition_Wins-4-FFE66D?style=for-the-badge&logo=medal&logoColor=000000)
-![CGPA](https://img.shields.io/badge/CGPA-8.11-95E1D3?style=for-the-badge&logo=graduation-cap&logoColor=FFFFFF)
-
-</div>
 
 <br/>
 
