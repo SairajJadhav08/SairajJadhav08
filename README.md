@@ -73,7 +73,7 @@
 
 | Project | Description | Tech |
 | :--- | :--- | :--- |
-| 🔹 [**Viro-AI Hub**](https://github.com/SairajJadhav08/Viro-ai-hub) | AI-powered platform for viral analysis, mutation prediction, and drug discovery. | ![AI](https://img.shields.io/badge/AI-Artificial%20Intelligence-orange?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
+| 🔹 [**Viro-AI**](https://github.com/SairajJadhav08/Viro-ai-hub) | AI-powered platform for viral analysis, mutation prediction, and drug discovery. | ![AI](https://img.shields.io/badge/AI-Artificial%20Intelligence-orange?style=for-the-badge) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
 | 🔹 [**MedVault**](https://github.com/SairajJadhav08) | A secure and smart medical record management system. | ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) |
 | 🔹 [**Smart Regional Alert**](https://github.com/SairajJadhav08) | Alert system for disease outbreaks & traffic with navigation. | ![IoT](https://img.shields.io/badge/IoT-Internet%20of%20Things-blue?style=for-the-badge) ![AI](https://img.shields.io/badge/AI-Artificial%20Intelligence-orange?style=for-the-badge) |
 | 🔹 [**Real-Time Card Detector**](https://github.com/SairajJadhav08/Real-Time-Card-Detector) | Detects playing cards in real time using YOLOv8 and OpenCV. | ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?style=for-the-badge) ![OpenCV](https://img.shields.io/badge/OpenCV-white?style=for-the-badge&logo=opencv&logoColor=white) |
@@ -86,19 +86,41 @@
 
 <div align="center">
 
-  ## 📫 Connect With Me
+  ## 🤝 Let's Connect & Collaborate!
 
-  <a href="https://www.linkedin.com/in/sairaj-jadhav-"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://www.instagram.com/sairaj_jadhav_05"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="mailto:sairajjadhav433@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <p>
+    <b>💡 Open to:</b> Collaborations • Hackathons • Open Source • Tech Discussions • Mentorship
+  </p>
+  
+  <p>
+    <i>Always excited to connect with fellow developers, researchers, and innovators! 🚀</i>
+  </p>
+
+  <br/>
+
+  ### 🌐 Reach Out On
+
+  <a href="https://www.linkedin.com/in/sairaj-jadhav-"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/SairajJadhav08"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.instagram.com/sairaj_jadhav_05"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="mailto:sairajjadhav433@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
   <br/>
   <br/>
 
-  <img src="https://komarev.com/ghpvc/?username=SairajJadhav08&label=Profile%20Views&color=0e75b6&style=flat" alt="Visitor Count" />
+  <img src="https://komarev.com/ghpvc/?username=SairajJadhav08&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
 
   <br/>
+  <br/>
 
-  ✨ _“Building projects that matter — one step at a time.”_
+  ### 💬 Let's Build Something Amazing Together!
+
+  <p>
+    <b>✨</b> <i>"Building projects that matter — one step at a time."</i> <b>✨</b>
+  </p>
+
+  <p>
+    <i>Feel free to reach out if you want to collaborate, discuss ideas, or just have a chat about tech! 😊</i>
+  </p>
 
 </div>
