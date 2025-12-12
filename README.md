@@ -1,7 +1,8 @@
 
+<div>
 <table>
-  <tr>
-    <td width="60%" valign="top">
+<tr>
+<td width="60%" valign="top">
 
 ### Hello, I'm
 
@@ -38,16 +39,15 @@ From creating smart healthcare systems to working on **regional alert platforms*
   </a>
 </p>
 
-    </td>
-    <td width="40%" valign="top" align="center">
+</td>
+<td width="40%" valign="top" align="center">
 
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
-</div>
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" alt="Coding GIF" />
 
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
+</div>
 
 <br/>
 
