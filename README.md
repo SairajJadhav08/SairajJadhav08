@@ -63,7 +63,7 @@
 
   <br/>
   
-  <img src="https://streak-stats.demolab.com/?user=SairajJadhav08&theme=tokyonight&hide_border=true&background=0D1117" alt="streak graph" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=SairajJadhav08&theme=tokyonight&hide_border=true" alt="streak graph" />
 
 </div>
 
